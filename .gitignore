@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/ros2,c++,clion,cmake
-# Edit at https://www.toptal.com/developers/gitignore?templates=ros2,c++,clion,cmake
+# Created by https://www.toptal.com/developers/gitignore/api/c++,ros2,clion,cmake,platformio
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,ros2,clion,cmake,platformio
 
 ### C++ ###
 # Prerequisites
@@ -167,6 +167,13 @@ CMakeUserPresets.json
 # External projects
 *-prefix/
 
+### PlatformIO ###
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+.pio
+
 ### ROS2 ###
 install/
 log/
@@ -197,4 +204,4 @@ qtcreator-*
 COLCON_IGNORE
 AMENT_IGNORE
 
-# End of https://www.toptal.com/developers/gitignore/api/ros2,c++,clion,cmake
+# End of https://www.toptal.com/developers/gitignore/api/c++,ros2,clion,cmake,platformio
